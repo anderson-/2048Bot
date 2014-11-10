@@ -115,8 +115,8 @@ public class ScorePlot {
 
         Dimension screenSize = new Dimension(Toolkit.getDefaultToolkit().getScreenSize());
         Dimension windowSize = new Dimension(window.getPreferredSize());
-        int wdwLeft = 300 + screenSize.width / 2 - windowSize.width / 2;
-        int wdwTop = screenSize.height / 2 - windowSize.height / 2;
+        int wdwLeft = screenSize.width / 2 - windowSize.width / 2 - 600;
+        int wdwTop = screenSize.height / 2 - windowSize.height / 2 - 300;
         window.setLocation(wdwLeft, wdwTop);
     }
 

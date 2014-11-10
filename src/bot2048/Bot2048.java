@@ -7,6 +7,7 @@ package bot2048;
 
 import java.awt.AWTException;
 import java.awt.Color;
+import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Point;
@@ -72,7 +73,7 @@ public class Bot2048 {
         try {
 
             // This block configure the logger with handler and formatter  
-            fh = new FileHandler("Bot2048-" + System.currentTimeMillis() + ".log");
+            fh = new FileHandler("logs/Bot2048-" + System.currentTimeMillis() + ".log");
             logger.addHandler(fh);
             SimpleFormatter formatter = new SimpleFormatter();
             fh.setFormatter(formatter);
@@ -638,7 +639,12 @@ public class Bot2048 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        String htmlFilePath = "2048-master/index.html"; // path to your new file
+        File htmlFile = new File(htmlFilePath);
+
+        // open the default web browser for the HTML page
+        Desktop.getDesktop().browse(htmlFile.toURI());
         new Bot2048().run();
     }
 
