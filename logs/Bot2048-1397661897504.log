@@ -1,0 +1,18 @@
+Apr 16, 2014 12:24:57 PM bot2048.Bot2048 LOG
+SEVERE: unknown tile color: 2048
+Apr 16, 2014 12:26:02 PM bot2048.Bot2048 LOG
+INFO: Game Over. Points: 3380, moves: 281
+Apr 16, 2014 12:27:05 PM bot2048.Bot2048 LOG
+INFO: Game Over. Points: 3628, moves: 295
+Apr 16, 2014 12:28:19 PM bot2048.Bot2048 LOG
+INFO: Game Over. Points: 4152, moves: 344
+Apr 16, 2014 12:28:50 PM bot2048.Bot2048 LOG
+SEVERE: ERROR: [3,1]Color not found: #fefefe
+Apr 16, 2014 12:28:50 PM bot2048.Bot2048 LOG
+SEVERE: ERROR: [0,0]Color not found: #e9e4e0
+Apr 16, 2014 12:28:50 PM bot2048.Bot2048 LOG
+SEVERE: ERROR: [0,0]Color not found: #d7cfc7
+Apr 16, 2014 12:28:50 PM bot2048.Bot2048 LOG
+SEVERE: ERROR: [0,0]Color not found: #c7bbb0
+Apr 16, 2014 12:28:50 PM bot2048.Bot2048 LOG
+SEVERE: ERROR: [0,0]Color not found: #bdb0a3

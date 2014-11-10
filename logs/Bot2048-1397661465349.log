@@ -1,0 +1,4 @@
+Apr 16, 2014 12:17:45 PM bot2048.Bot2048 LOG
+SEVERE: unknown tile color: 2048
+Apr 16, 2014 12:18:48 PM bot2048.Bot2048 LOG
+INFO: Game Over. Points: 2688, moves: 256
